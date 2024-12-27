@@ -102,15 +102,7 @@ def get_current_time():
     current_time = datetime.datetime.now().strftime("%H:%M:%S")
     return current_time
 
-def send_email():
-    smtp_server = "your_smtp_server"
-    port = 587
-    sender_email ="mdipu0106@gmail.com"
-    receiver_email = "deepaklavate1432@gmail.com"
-    password = "dipali2003"
 
-    subject = "to test the project"
-    message = "project is running"
 
     try:
         server = smtplib.SMTP(smtp_server, port)
